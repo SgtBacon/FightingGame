@@ -9,7 +9,7 @@ public class MainMenuController : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("Start");
-        //SceneManager.LoadScene("PlayerSelect");
+        SceneManager.LoadScene("PlayerSelect");
     }
 
     //On press, Quit Game
