@@ -14,6 +14,7 @@ public class SelectController : MonoBehaviour
     {
         //PlayerSelect.pickplayer
         Debug.Log(b.name);
+        SceneManager.LoadScene("LevelSelect");
     }
 
     public void ReturnToMenu()
